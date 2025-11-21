@@ -13,7 +13,7 @@ class ApiError extends Error{
         TouchList.sucess =false
         this.errors = errors
 
-        if(statck){
+        if(stack){
             this.stack = stack
 
         }
